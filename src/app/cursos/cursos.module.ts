@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CursosRoutingModule } from './cursos-routing.module';
-import { CursosComponent } from './cursos/cursos.component';
+import { CursosAsaNorteComponent } from './cursos-asa-norte/cursos-asa-norte.component';
+import { CursosTaguatingaComponent } from './cursos-taguatinga/cursos-taguatinga.component';
 
 
 @NgModule({
   declarations: [
-    CursosComponent
+    CursosAsaNorteComponent,
+    CursosTaguatingaComponent
   ],
   imports: [
     CommonModule,

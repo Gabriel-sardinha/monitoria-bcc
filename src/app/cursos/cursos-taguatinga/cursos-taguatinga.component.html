@@ -1,19 +1,5 @@
 <div class="container justify-content-center mt-4">
 
-  <h1>Asa norte</h1>
-  <div class="d-inline-flex me-2 mt-2" *ngFor="let curso of cursos">
-    <div class="card">
-      <div class="card-header">{{ curso.nome }}</div>
-      <div class="card-body">
-        <p>Período: {{ curso.periodo }}</p>
-        <p>Dia para estudar: {{ curso.estudo }}</p>
-        <p>Avaliação: {{ curso.avaliacao }}</p>
-        <p>Horário{{ curso.horario }}</p>
-        <p *ngIf="curso.inscricao != ''">Inscrição: {{ curso.inscricao }}</p>
-      </div>
-    </div>
-  </div>
-
   <h1 class="mt-4">Taguatinga</h1>
   <div class="d-inline-flex me-2 mt-2" *ngFor="let curso of cursos">
     <div class="card">

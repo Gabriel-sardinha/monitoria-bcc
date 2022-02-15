@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-monitores',
-  templateUrl: './monitores.component.html',
-  styleUrls: ['./monitores.component.scss']
+  selector: 'app-monitores-taguatinga',
+  templateUrl: './monitores-taguatinga.component.html',
+  styleUrls: ['./monitores-taguatinga.component.scss']
 })
-export class MonitoresComponent implements OnInit {
+export class MonitoresTaguatingaComponent implements OnInit {
+
 
   monitores: any[] = [
     {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
@@ -14,7 +15,6 @@ export class MonitoresComponent implements OnInit {
     {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
     {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
   ]
-
 
   constructor() { }
 

@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MonitoresRoutingModule } from './monitores-routing.module';
-import { MonitoresComponent } from './monitores/monitores.component';
+import { MonitoresAsaNorteComponent } from './monitores-asa-norte/monitores-asa-norte.component';
+import { MonitoresTaguatingaComponent } from './monitores-taguatinga/monitores-taguatinga.component';
 
 
 @NgModule({
   declarations: [
-    MonitoresComponent
+    MonitoresAsaNorteComponent,
+    MonitoresTaguatingaComponent
   ],
   imports: [
     CommonModule,
