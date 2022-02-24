@@ -2,3 +2,22 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+.b-1{
+    border-radius: .5rem;
+}
+.b-2{
+    border-radius: 1rem;
+}
+
+.b-3{
+    border-radius: 1.5rem;
+}
+
+.b-4{
+    border-radius: 2rem;
+}
+
+.container {
+    padding: 0 5rem 0 5rem;
+}
