@@ -9,11 +9,8 @@ export class MonitoresAsaNorteComponent implements OnInit {
 
 
   monitores: any[] = [
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
+    {nome: "Érica Moraes Abdão", email: "erica.abdao@sempreceub.com", horario: "17h às 19h10"},
+    {nome: "Lucas Borges Vieira", email: "lucasborges@sempreceub.com", horario: "17h às 19h10"},
   ]
 
   constructor() { }

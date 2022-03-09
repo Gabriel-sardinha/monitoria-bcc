@@ -9,11 +9,8 @@ export class MonitoresTaguatingaComponent implements OnInit {
 
 
   monitores: any[] = [
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
-    {nome: "Gabriel Sardinha Ferreira", email: "gabrielsardinha@sempreceub.com", horario: "17:00 as 19:00"},
+    {nome: "Ítalo Vinicius Neves Cordeiro", email: "lobosolitario@sempreceub.com", horario: "11h às 12h30"},
+    {nome: "Antônio Vitor Arruda Vilela", email: "antonio.vitor@sempreceub.com", horario: "11h às 12h30"},
   ]
 
   constructor() { }
