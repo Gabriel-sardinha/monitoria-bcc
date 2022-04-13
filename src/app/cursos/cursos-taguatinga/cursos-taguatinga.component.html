@@ -9,9 +9,10 @@
         <p>Dia para estudar: {{ curso.estudo }}</p>
         <p>Avaliação: {{ curso.avaliacao }}</p>
         <p>Horário {{ curso.horario }}</p>
-        <p *ngIf="curso.inscricao != ''"> 
+        <p *ngIf="curso.inscricao != 'Encerrado' && curso.inscricao != '' "> 
           <a [href]="curso.inscricao">Inscreva-se</a>
         </p>
+        <p *ngIf="curso.inscricao == 'Encerrado'">Encerrado</p>
       </div>
     </div>
   </div>
