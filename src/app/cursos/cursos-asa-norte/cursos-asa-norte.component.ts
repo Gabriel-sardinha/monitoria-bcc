@@ -13,6 +13,7 @@ export class CursosAsaNorteComponent implements OnInit {
     {nome: 'Linguagem Python Básico', periodo: '30/05/22 a 10/06/22', avaliacao: '13/06/22', horario: 'das 17h30 às 19h', inscricao:''},
   ]
 
+
   constructor() { }
 
   ngOnInit(): void {
