@@ -9,7 +9,7 @@ export class CursosTaguatingaComponent implements OnInit {
 
   cursos: any[] = [
     {nome: 'Linguagem Java Básico', periodo: '28/03/22 a 05/04/22', avaliacao: '07/04/22', horario: 'das 11h às 12h30', inscricao:'Encerrado'},
-    {nome: 'Linux', periodo: '25/04/22 a 06/05/22', avaliacao: '09/05/22', horario: 'das 11h às 12h30', inscricao:''},
+    {nome: 'Linux', periodo: '25/04/22 a 06/05/22', avaliacao: '09/05/22', horario: 'das 11h às 12h30', inscricao:'https://forms.gle/QYbXdmDk8VseGoLe9'},
     {nome: 'HTML - CSS', periodo: '30/05/22 a 10/06/22', avaliacao: '13/06/22', horario: 'das 11h às 12h30', inscricao:''}
   ]
 
